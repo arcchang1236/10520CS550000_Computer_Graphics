@@ -1,0 +1,7 @@
+﻿  main.cpp
+c:\users\f2289\desktop\計算機圖學\hw3\hw3_framework\cg_hw3\cg_hw3\main.cpp(63): warning C4101: 'maxVal': 未參考的區域變數
+c:\users\f2289\desktop\計算機圖學\hw3\hw3_framework\cg_hw3\cg_hw3\main.cpp(64): warning C4101: 'minVal': 未參考的區域變數
+c:\users\f2289\desktop\計算機圖學\hw3\hw3_framework\cg_hw3\cg_hw3\main.cpp(203): warning C4838: 從 'double' 到 'GLfloat' 的轉換必須是縮小轉換
+c:\users\f2289\desktop\計算機圖學\hw3\hw3_framework\cg_hw3\cg_hw3\main.cpp(203): warning C4305: '正在初始化': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+  CG_HW3.vcxproj -> C:\Users\f2289\Desktop\計算機圖學\Hw3\HW3_framework\CG_HW3\Debug\CG_HW3.exe
+  CG_HW3.vcxproj -> C:\Users\f2289\Desktop\計算機圖學\Hw3\HW3_framework\CG_HW3\Debug\CG_HW3.pdb (Full PDB)
