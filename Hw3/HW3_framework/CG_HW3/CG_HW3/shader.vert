@@ -1,18 +1,19 @@
 attribute vec4 av4position;
-attribute vec3 av3color;
+attribute vec3 av3normal;
 
-varying vec3 vv3color;
+varying vec4 vv4color;
+varying vec4 P;
+varying vec4 N;
 
 uniform mat4 mvp;
+uniform mat4 MN;
+uniform mat4 R;
 
-void main() {
-	// NOTE!! column major
-	/*mat4 mvp = mat4(
-		vec4(    1,    0,    0,    0),
-		vec4(    0,    1,    0,    0),
-		vec4(    0,    0,   -1,    0),
-		vec4(    0,    0,    0,    1)
-	);*/	
-	vv3color = av3color;
+
+
+void main() {	
+	P = MN * av4position;
+	N = R * vec4(av3normal, 0.0);
+
 	gl_Position = mvp * av4position;
 }
